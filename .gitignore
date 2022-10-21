@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/BorsukSoftware.Utils.Pytest/.vs
+/BorsukSoftware.Utils.Pytest/obj
+/BorsukSoftware.Utils.Pytest/bin
+/BorsukSoftware.Utils.Pytest.Tests/bin
+/BorsukSoftware.Utils.Pytest.Tests/obj

@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>false</ImplicitUsings>
+
+    <IsPackable>false</IsPackable>
+
+    <RootNamespace>BorsukSoftware.Utils.Pytest</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="OutputProcessor\Resources\Failures\expected.json" />
+    <None Remove="OutputProcessor\Resources\Failures\Input.txt" />
+    <None Remove="OutputProcessor\Resources\MIxed\expected.json" />
+    <None Remove="OutputProcessor\Resources\MIxed\Input.txt" />
+    <None Remove="OutputProcessor\Resources\Successes\expected.json" />
+    <None Remove="OutputProcessor\Resources\Successes\Input.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="OutputProcessor\Resources\Failures\expected.json" />
+    <EmbeddedResource Include="OutputProcessor\Resources\Failures\Input.txt" />
+    <EmbeddedResource Include="OutputProcessor\Resources\MIxed\expected.json" />
+    <EmbeddedResource Include="OutputProcessor\Resources\MIxed\Input.txt" />
+    <EmbeddedResource Include="OutputProcessor\Resources\Successes\expected.json" />
+    <EmbeddedResource Include="OutputProcessor\Resources\Successes\Input.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.7.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.1.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BorsukSoftware.Utils.Pytest\BorsukSoftware.Utils.Pytest.csproj" />
+  </ItemGroup>
+
+</Project>

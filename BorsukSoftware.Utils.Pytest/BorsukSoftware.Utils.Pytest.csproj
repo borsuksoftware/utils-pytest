@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>A collection of utils methods for working with pytest results within .net</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	
+    <PackageId>BorsukSoftware.Utils.Pytest</PackageId>
+    <PackageTags>pytest borsuksoftware</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Copyright>Borsuk Software</Copyright>
+    <Authors>Borsuk Software</Authors>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

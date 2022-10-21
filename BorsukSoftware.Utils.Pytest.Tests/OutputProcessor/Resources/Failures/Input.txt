@@ -1,0 +1,92 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.9.7, pytest-7.1.3, pluggy-1.0.0
+rootdir: E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts
+collected 3 items
+
+tests/test_notifications.py::Notifications::test_fail1_with_logger 
+-------------------------------- live log call --------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_chrome', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:test_notifications.py:41 Abble
+FAILED                                                                   [ 33%]
+tests/test_notifications.py::Notifications::test_fail1_with_print 
+-------------------------------- live log call --------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+FAILED                                                                   [ 66%]
+tests/test_notifications.py::Notifications::test_fail1_with_printandlogger 
+-------------------------------- live log call --------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:test_notifications.py:37 Ibble
+FAILED                                                                   [100%]
+
+================================== FAILURES ===================================
+____________________ Notifications.test_fail1_with_logger _____________________
+
+self = <test_notifications.Notifications testMethod=test_fail1_with_logger>
+
+    def test_fail1_with_logger(self):
+        self.logger.info( "Abble" )
+>       raise Exception("oops")
+E       Exception: oops
+
+tests\test_notifications.py:42: Exception
+---------------------------- Captured stdout call -----------------------------
+E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+------------------------------ Captured log call ------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_chrome', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:test_notifications.py:41 Abble
+_____________________ Notifications.test_fail1_with_print _____________________
+
+self = <test_notifications.Notifications testMethod=test_fail1_with_print>
+
+    def test_fail1_with_print(self):
+        print("Hello")
+>       raise Exception("oops")
+E       Exception: oops
+
+tests\test_notifications.py:33: Exception
+---------------------------- Captured stdout call -----------------------------
+E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+Hello
+------------------------------ Captured log call ------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+________________ Notifications.test_fail1_with_printandlogger _________________
+
+self = <test_notifications.Notifications testMethod=test_fail1_with_printandlogger>
+
+    def test_fail1_with_printandlogger(self):
+        print("Hello")
+        self.logger.info( "Ibble" )
+>       raise Exception("oops")
+E       Exception: oops
+
+tests\test_notifications.py:38: Exception
+---------------------------- Captured stdout call -----------------------------
+E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+Hello
+------------------------------ Captured log call ------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:test_notifications.py:37 Ibble
+- generated xml file: E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\junitreport.xml -
+=========================== short test summary info ===========================
+FAILED tests/test_notifications.py::Notifications::test_fail1_with_logger - E...
+FAILED tests/test_notifications.py::Notifications::test_fail1_with_print - Ex...
+FAILED tests/test_notifications.py::Notifications::test_fail1_with_printandlogger
+======================== 3 failed in 62.66s (0:01:02) =========================

@@ -1,0 +1,690 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.9.7, pytest-7.1.3, pluggy-1.0.0
+rootdir: E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts
+collected 7 items
+
+tests/test_misc.py::Misc::test_canViewInterestedInBecomingAProvider 
+-------------------------------- live log call --------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:testutils.py:113 logoutIfLoggedIn
+INFO     testutils:test_misc.py:39 Logging in 
+INFO     testutils:testutils.py:127 matching login images: 1
+INFO     testutils:testutils.py:128 element count: True
+INFO     testutils:testutils.py:129 trying to click
+INFO     testutils:testutils.py:132 Looking for #active
+INFO     testutils:testutils.py:134 clicking on mock box
+INFO     testutils:testutils.py:137 clicking on image again
+INFO     testutils:testutils.py:148 Navigating to create profile
+INFO     testutils:testutils.py:150 element count: False
+INFO     testutils:testutils.py:155 Failed: list index out of range
+FAILED                                                                   [ 14%]
+tests/test_misc.py::Misc::test_canViewSupport 
+-------------------------------- live log call --------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:testutils.py:113 logoutIfLoggedIn
+INFO     testutils:test_misc.py:85 Logging in 
+INFO     testutils:testutils.py:127 matching login images: 1
+INFO     testutils:testutils.py:128 element count: True
+INFO     testutils:testutils.py:129 trying to click
+INFO     testutils:testutils.py:132 Looking for #active
+INFO     testutils:testutils.py:134 clicking on mock box
+INFO     testutils:testutils.py:137 clicking on image again
+INFO     testutils:testutils.py:148 Navigating to create profile
+INFO     testutils:testutils.py:150 element count: True
+INFO     testutils:testutils.py:152 Clicked
+INFO     testutils:testutils.py:161 Entering email address
+INFO     testutils:testutils.py:163 element count: True
+INFO     testutils:testutils.py:168 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:171 Finding next button
+INFO     testutils:testutils.py:173 element count: True
+INFO     testutils:testutils.py:184 Entering verification code
+INFO     testutils:testutils.py:191 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:194 Clicking on button
+INFO     testutils:testutils.py:208 Entering user details
+INFO     testutils:testutils.py:209 Handling title
+INFO     testutils:testutils.py:213 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:219 Processing firstName
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing lastName
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing dateOfBirth
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing phoneNumber
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:225 Handling language
+INFO     testutils:testutils.py:231 Swiping
+INFO     testutils:testutils.py:233 Swiped
+INFO     testutils:testutils.py:240 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:242 Handling country
+INFO     testutils:testutils.py:246 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:248 Moving to next
+INFO     testutils:testutils.py:260 Entering verification code
+INFO     testutils:testutils.py:267 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:270 Clicking on button
+INFO     testutils:testutils.py:281 Looking for home div
+INFO     testutils:test_misc.py:87 Logged in
+INFO     testutils:test_misc.py:91 clicking menu
+INFO     testutils:test_misc.py:100 Clicking on support entry
+INFO     testutils:test_misc.py:108 Checking url
+INFO     testutils:test_misc.py:111  => https://0.0.0.0/users/support
+INFO     testutils:test_misc.py:121 Success
+PASSED                                                                   [ 28%]
+tests/test_notifications.py::Notifications::test_canToggleNotifications 
+-------------------------------- live log call --------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:testutils.py:113 logoutIfLoggedIn
+INFO     testutils:test_notifications.py:113 Logging in 
+INFO     testutils:testutils.py:127 matching login images: 1
+INFO     testutils:testutils.py:128 element count: True
+INFO     testutils:testutils.py:129 trying to click
+INFO     testutils:testutils.py:132 Looking for #active
+INFO     testutils:testutils.py:134 clicking on mock box
+INFO     testutils:testutils.py:137 clicking on image again
+INFO     testutils:testutils.py:148 Navigating to create profile
+INFO     testutils:testutils.py:150 element count: True
+INFO     testutils:testutils.py:152 Clicked
+INFO     testutils:testutils.py:161 Entering email address
+INFO     testutils:testutils.py:163 element count: True
+INFO     testutils:testutils.py:168 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:171 Finding next button
+INFO     testutils:testutils.py:173 element count: True
+INFO     testutils:testutils.py:184 Entering verification code
+INFO     testutils:testutils.py:191 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:194 Clicking on button
+INFO     testutils:testutils.py:208 Entering user details
+INFO     testutils:testutils.py:209 Handling title
+INFO     testutils:testutils.py:213 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:219 Processing firstName
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing lastName
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing dateOfBirth
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing phoneNumber
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:225 Handling language
+INFO     testutils:testutils.py:231 Swiping
+INFO     testutils:testutils.py:233 Swiped
+INFO     testutils:testutils.py:240 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:242 Handling country
+INFO     testutils:testutils.py:246 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:248 Moving to next
+INFO     testutils:testutils.py:260 Entering verification code
+INFO     testutils:testutils.py:267 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:270 Clicking on button
+INFO     testutils:testutils.py:281 Looking for home div
+INFO     testutils:test_notifications.py:115 Logged in
+INFO     testutils:test_notifications.py:36 clicking menu
+INFO     testutils:test_notifications.py:45 Clicking on 'Settings' entry
+INFO     testutils:test_notifications.py:50 Clicking on 'Notification settings' entry
+INFO     testutils:test_notifications.py:57 Checking url
+INFO     testutils:test_notifications.py:60  => https://0.0.0.0/settings/notification
+INFO     testutils:test_notifications.py:124 Store settings
+INFO     testutils:test_notifications.py:133 Checking state for 'ooFollowerTrades'
+INFO     testutils:test_notifications.py:135  => False
+INFO     testutils:test_notifications.py:133 Checking state for 'ooComments'
+INFO     testutils:test_notifications.py:135  => False
+INFO     testutils:test_notifications.py:133 Checking state for 'ooYourTrades'
+INFO     testutils:test_notifications.py:135  => False
+INFO     testutils:test_notifications.py:161 
+INFO     testutils:test_notifications.py:162 Submitting settings
+INFO     testutils:test_notifications.py:165  => submitted
+INFO     testutils:test_notifications.py:36 clicking menu
+INFO     testutils:test_notifications.py:45 Clicking on 'Settings' entry
+INFO     testutils:test_notifications.py:50 Clicking on 'Notification settings' entry
+INFO     testutils:test_notifications.py:57 Checking url
+INFO     testutils:test_notifications.py:60  => https://0.0.0.0/settings/notification
+INFO     testutils:test_notifications.py:126 Iteration 1
+INFO     testutils:test_notifications.py:127  => check settings are as expected
+INFO     testutils:test_notifications.py:128  => change settings (and validate)
+INFO     testutils:test_notifications.py:129  => register settings, then repeat
+INFO     testutils:test_notifications.py:133 Checking state for 'ooFollowerTrades'
+INFO     testutils:test_notifications.py:135  => False
+INFO     testutils:test_notifications.py:144  => clicking
+INFO     testutils:test_notifications.py:152  => new state: True
+INFO     testutils:test_notifications.py:133 Checking state for 'ooComments'
+INFO     testutils:test_notifications.py:135  => False
+INFO     testutils:test_notifications.py:144  => clicking
+INFO     testutils:test_notifications.py:152  => new state: True
+INFO     testutils:test_notifications.py:133 Checking state for 'ooYourTrades'
+INFO     testutils:test_notifications.py:135  => False
+INFO     testutils:test_notifications.py:144  => clicking
+INFO     testutils:test_notifications.py:152  => new state: True
+INFO     testutils:test_notifications.py:161 
+INFO     testutils:test_notifications.py:162 Submitting settings
+INFO     testutils:test_notifications.py:165  => submitted
+INFO     testutils:test_notifications.py:36 clicking menu
+INFO     testutils:test_notifications.py:45 Clicking on 'Settings' entry
+INFO     testutils:test_notifications.py:50 Clicking on 'Notification settings' entry
+INFO     testutils:test_notifications.py:57 Checking url
+INFO     testutils:test_notifications.py:60  => https://0.0.0.0/settings/notification
+INFO     testutils:test_notifications.py:126 Iteration 2
+INFO     testutils:test_notifications.py:127  => check settings are as expected
+INFO     testutils:test_notifications.py:128  => change settings (and validate)
+INFO     testutils:test_notifications.py:129  => register settings, then repeat
+INFO     testutils:test_notifications.py:133 Checking state for 'ooFollowerTrades'
+INFO     testutils:test_notifications.py:135  => True
+INFO     testutils:test_notifications.py:144  => clicking
+INFO     testutils:test_notifications.py:152  => new state: False
+INFO     testutils:test_notifications.py:133 Checking state for 'ooComments'
+INFO     testutils:test_notifications.py:135  => True
+INFO     testutils:test_notifications.py:144  => clicking
+INFO     testutils:test_notifications.py:152  => new state: False
+INFO     testutils:test_notifications.py:133 Checking state for 'ooYourTrades'
+INFO     testutils:test_notifications.py:135  => True
+INFO     testutils:test_notifications.py:144  => clicking
+INFO     testutils:test_notifications.py:152  => new state: False
+INFO     testutils:test_notifications.py:161 
+INFO     testutils:test_notifications.py:162 Submitting settings
+INFO     testutils:test_notifications.py:165  => submitted
+INFO     testutils:test_notifications.py:36 clicking menu
+INFO     testutils:test_notifications.py:45 Clicking on 'Settings' entry
+INFO     testutils:test_notifications.py:50 Clicking on 'Notification settings' entry
+INFO     testutils:test_notifications.py:57 Checking url
+INFO     testutils:test_notifications.py:60  => https://0.0.0.0/settings/notification
+INFO     testutils:test_notifications.py:169 Success
+PASSED                                                                   [ 42%]
+tests/test_notifications.py::Notifications::test_fail1_with_logger 
+-------------------------------- live log call --------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:test_notifications.py:183 Abble
+FAILED                                                                   [ 57%]
+tests/test_notifications.py::Notifications::test_fail1_with_print 
+-------------------------------- live log call --------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+FAILED                                                                   [ 71%]
+tests/test_notifications.py::Notifications::test_fail1_with_printandlogger 
+-------------------------------- live log call --------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:test_notifications.py:179 Ibble
+FAILED                                                                   [ 85%]
+tests/test_userRegistrationTests.py::UserRegistrationTests::test_canRegisterNewUser 
+-------------------------------- live log call --------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:testutils.py:113 logoutIfLoggedIn
+INFO     testutils:test_userRegistrationTests.py:25 Logging in 
+INFO     testutils:testutils.py:127 matching login images: 1
+INFO     testutils:testutils.py:128 element count: True
+INFO     testutils:testutils.py:129 trying to click
+INFO     testutils:testutils.py:132 Looking for #active
+INFO     testutils:testutils.py:134 clicking on mock box
+INFO     testutils:testutils.py:137 clicking on image again
+INFO     testutils:testutils.py:148 Navigating to create profile
+INFO     testutils:testutils.py:150 element count: True
+INFO     testutils:testutils.py:152 Clicked
+INFO     testutils:testutils.py:161 Entering email address
+INFO     testutils:testutils.py:163 element count: True
+INFO     testutils:testutils.py:168 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:171 Finding next button
+INFO     testutils:testutils.py:173 element count: True
+INFO     testutils:testutils.py:184 Entering verification code
+INFO     testutils:testutils.py:191 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:194 Clicking on button
+INFO     testutils:testutils.py:208 Entering user details
+INFO     testutils:testutils.py:209 Handling title
+INFO     testutils:testutils.py:213 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:219 Processing firstName
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing lastName
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing dateOfBirth
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing phoneNumber
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:225 Handling language
+INFO     testutils:testutils.py:231 Swiping
+INFO     testutils:testutils.py:233 Swiped
+INFO     testutils:testutils.py:240 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:242 Handling country
+INFO     testutils:testutils.py:246 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:248 Moving to next
+INFO     testutils:testutils.py:260 Entering verification code
+INFO     testutils:testutils.py:267 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:270 Clicking on button
+INFO     testutils:testutils.py:281 Looking for home div
+INFO     testutils:test_userRegistrationTests.py:27 Logged in
+PASSED                                                                   [100%]
+
+================================== FAILURES ===================================
+_______________ Misc.test_canViewInterestedInBecomingAProvider ________________
+
+test = <test_misc.Misc testMethod=test_canViewInterestedInBecomingAProvider>
+ssPrefix = 'Misc_test_canViewInterestedInBecomingAProvider'
+
+    def registerNewUser( test: appNameAppiumTestBase, ssPrefix: str):
+        logger = test.logger
+        driver = test.driver;
+    
+        ss_folder = test.ssFolder
+        ss_root = ss_folder + '/' + ssPrefix + '_'
+    
+        driver.save_screenshot(ss_root + 'registeringNewUser.png')
+    
+        # Enable mock mode
+        try:
+            loginImageElements = driver.find_elements(by=AppiumBy.CSS_SELECTOR, value='.loginfeatureImg')
+            logger.info( 'matching login images: %s', len(loginImageElements))
+            logger.info( 'element count: %s', len(loginImageElements) == 1)
+            logger.info( 'trying to click' )
+            loginImageElements[0].click()
+    
+            logger.info( 'Looking for #active')
+            mockBoxElements = driver.find_elements(by=AppiumBy.CSS_SELECTOR, value='#active')
+            logger.info( 'clicking on mock box')
+            mockBoxElements[0].click()
+    
+            logger.info( 'clicking on image again')
+            loginImageElements[0].click()
+    
+        except Exception as e:
+            driver.save_screenshot(ss_root + 'mockModeFailure.png')
+            logger.info( 'Failed: %s', e)
+            raise Exception('failed to enable mock mode')
+    
+        # Navigate to create profile link
+        try:
+            time.sleep(0.3)
+            logger.info( "Navigating to create profile")
+            createProfileElements = driver.find_elements(by=AppiumBy.CSS_SELECTOR, value='#createProfileLink')
+            logger.info( 'element count: %s', len(createProfileElements) == 1)
+>           createProfileElements[0].click()
+E           IndexError: list index out of range
+
+tests\testutils.py:151: IndexError
+
+During handling of the above exception, another exception occurred:
+
+self = <test_misc.Misc testMethod=test_canViewInterestedInBecomingAProvider>
+
+    def test_canViewInterestedInBecomingAProvider(self):
+    
+        ssRoot = self.ssFolder + "/Misc_test_canViewInterestedInBecomingAProvider"
+    
+        driver = self.driver
+        ssPrefix = "Misc_test_canViewInterestedInBecomingAProvider"
+        logger = self.logger
+        RegistrationHelper.logoutIfLoggedIn(self, ssPrefix)
+        logger.info( "Logging in ")
+>       RegistrationHelper.registerNewUser(self, ssPrefix)
+
+tests\test_misc.py:40: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+test = <test_misc.Misc testMethod=test_canViewInterestedInBecomingAProvider>
+ssPrefix = 'Misc_test_canViewInterestedInBecomingAProvider'
+
+    def registerNewUser( test: appNameAppiumTestBase, ssPrefix: str):
+        logger = test.logger
+        driver = test.driver;
+    
+        ss_folder = test.ssFolder
+        ss_root = ss_folder + '/' + ssPrefix + '_'
+    
+        driver.save_screenshot(ss_root + 'registeringNewUser.png')
+    
+        # Enable mock mode
+        try:
+            loginImageElements = driver.find_elements(by=AppiumBy.CSS_SELECTOR, value='.loginfeatureImg')
+            logger.info( 'matching login images: %s', len(loginImageElements))
+            logger.info( 'element count: %s', len(loginImageElements) == 1)
+            logger.info( 'trying to click' )
+            loginImageElements[0].click()
+    
+            logger.info( 'Looking for #active')
+            mockBoxElements = driver.find_elements(by=AppiumBy.CSS_SELECTOR, value='#active')
+            logger.info( 'clicking on mock box')
+            mockBoxElements[0].click()
+    
+            logger.info( 'clicking on image again')
+            loginImageElements[0].click()
+    
+        except Exception as e:
+            driver.save_screenshot(ss_root + 'mockModeFailure.png')
+            logger.info( 'Failed: %s', e)
+            raise Exception('failed to enable mock mode')
+    
+        # Navigate to create profile link
+        try:
+            time.sleep(0.3)
+            logger.info( "Navigating to create profile")
+            createProfileElements = driver.find_elements(by=AppiumBy.CSS_SELECTOR, value='#createProfileLink')
+            logger.info( 'element count: %s', len(createProfileElements) == 1)
+            createProfileElements[0].click()
+            logger.info( "Clicked" )
+        except Exception as e:
+            driver.save_screenshot(ss_root + 'createProfileFailure.png')
+            logger.info( 'Failed: %s', e)
+>           raise Exception('Failed to navigate to create profile link')
+E           Exception: Failed to navigate to create profile link
+
+tests\testutils.py:156: Exception
+---------------------------- Captured stdout call -----------------------------
+E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+------------------------------ Captured log call ------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:testutils.py:113 logoutIfLoggedIn
+INFO     testutils:test_misc.py:39 Logging in 
+INFO     testutils:testutils.py:127 matching login images: 1
+INFO     testutils:testutils.py:128 element count: True
+INFO     testutils:testutils.py:129 trying to click
+INFO     testutils:testutils.py:132 Looking for #active
+INFO     testutils:testutils.py:134 clicking on mock box
+INFO     testutils:testutils.py:137 clicking on image again
+INFO     testutils:testutils.py:148 Navigating to create profile
+INFO     testutils:testutils.py:150 element count: False
+INFO     testutils:testutils.py:155 Failed: list index out of range
+____________________ Notifications.test_fail1_with_logger _____________________
+
+self = <test_notifications.Notifications testMethod=test_fail1_with_logger>
+
+    def test_fail1_with_logger(self):
+        self.logger.info( "Abble" )
+>       raise Exception("oops")
+E       Exception: oops
+
+tests\test_notifications.py:184: Exception
+---------------------------- Captured stdout call -----------------------------
+E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+------------------------------ Captured log call ------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:test_notifications.py:183 Abble
+_____________________ Notifications.test_fail1_with_print _____________________
+
+self = <test_notifications.Notifications testMethod=test_fail1_with_print>
+
+    def test_fail1_with_print(self):
+        print("Hello")
+>       raise Exception("oops")
+E       Exception: oops
+
+tests\test_notifications.py:175: Exception
+---------------------------- Captured stdout call -----------------------------
+E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+Hello
+------------------------------ Captured log call ------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+________________ Notifications.test_fail1_with_printandlogger _________________
+
+self = <test_notifications.Notifications testMethod=test_fail1_with_printandlogger>
+
+    def test_fail1_with_printandlogger(self):
+        print("Hello")
+        self.logger.info( "Ibble" )
+>       raise Exception("oops")
+E       Exception: oops
+
+tests\test_notifications.py:180: Exception
+---------------------------- Captured stdout call -----------------------------
+E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+Hello
+------------------------------ Captured log call ------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:test_notifications.py:179 Ibble
+=================================== PASSES ====================================
+__________________________ Misc.test_canViewSupport ___________________________
+---------------------------- Captured stdout call -----------------------------
+E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+------------------------------ Captured log call ------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:testutils.py:113 logoutIfLoggedIn
+INFO     testutils:test_misc.py:85 Logging in 
+INFO     testutils:testutils.py:127 matching login images: 1
+INFO     testutils:testutils.py:128 element count: True
+INFO     testutils:testutils.py:129 trying to click
+INFO     testutils:testutils.py:132 Looking for #active
+INFO     testutils:testutils.py:134 clicking on mock box
+INFO     testutils:testutils.py:137 clicking on image again
+INFO     testutils:testutils.py:148 Navigating to create profile
+INFO     testutils:testutils.py:150 element count: True
+INFO     testutils:testutils.py:152 Clicked
+INFO     testutils:testutils.py:161 Entering email address
+INFO     testutils:testutils.py:163 element count: True
+INFO     testutils:testutils.py:168 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:171 Finding next button
+INFO     testutils:testutils.py:173 element count: True
+INFO     testutils:testutils.py:184 Entering verification code
+INFO     testutils:testutils.py:191 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:194 Clicking on button
+INFO     testutils:testutils.py:208 Entering user details
+INFO     testutils:testutils.py:209 Handling title
+INFO     testutils:testutils.py:213 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:219 Processing firstName
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing lastName
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing dateOfBirth
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing phoneNumber
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:225 Handling language
+INFO     testutils:testutils.py:231 Swiping
+INFO     testutils:testutils.py:233 Swiped
+INFO     testutils:testutils.py:240 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:242 Handling country
+INFO     testutils:testutils.py:246 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:248 Moving to next
+INFO     testutils:testutils.py:260 Entering verification code
+INFO     testutils:testutils.py:267 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:270 Clicking on button
+INFO     testutils:testutils.py:281 Looking for home div
+INFO     testutils:test_misc.py:87 Logged in
+INFO     testutils:test_misc.py:91 clicking menu
+INFO     testutils:test_misc.py:100 Clicking on support entry
+INFO     testutils:test_misc.py:108 Checking url
+INFO     testutils:test_misc.py:111  => https://0.0.0.0/users/support
+INFO     testutils:test_misc.py:121 Success
+__________________ Notifications.test_canToggleNotifications __________________
+---------------------------- Captured stdout call -----------------------------
+E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+------------------------------ Captured log call ------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:testutils.py:113 logoutIfLoggedIn
+INFO     testutils:test_notifications.py:113 Logging in 
+INFO     testutils:testutils.py:127 matching login images: 1
+INFO     testutils:testutils.py:128 element count: True
+INFO     testutils:testutils.py:129 trying to click
+INFO     testutils:testutils.py:132 Looking for #active
+INFO     testutils:testutils.py:134 clicking on mock box
+INFO     testutils:testutils.py:137 clicking on image again
+INFO     testutils:testutils.py:148 Navigating to create profile
+INFO     testutils:testutils.py:150 element count: True
+INFO     testutils:testutils.py:152 Clicked
+INFO     testutils:testutils.py:161 Entering email address
+INFO     testutils:testutils.py:163 element count: True
+INFO     testutils:testutils.py:168 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:171 Finding next button
+INFO     testutils:testutils.py:173 element count: True
+INFO     testutils:testutils.py:184 Entering verification code
+INFO     testutils:testutils.py:191 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:194 Clicking on button
+INFO     testutils:testutils.py:208 Entering user details
+INFO     testutils:testutils.py:209 Handling title
+INFO     testutils:testutils.py:213 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:219 Processing firstName
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing lastName
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing dateOfBirth
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing phoneNumber
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:225 Handling language
+INFO     testutils:testutils.py:231 Swiping
+INFO     testutils:testutils.py:233 Swiped
+INFO     testutils:testutils.py:240 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:242 Handling country
+INFO     testutils:testutils.py:246 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:248 Moving to next
+INFO     testutils:testutils.py:260 Entering verification code
+INFO     testutils:testutils.py:267 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:270 Clicking on button
+INFO     testutils:testutils.py:281 Looking for home div
+INFO     testutils:test_notifications.py:115 Logged in
+INFO     testutils:test_notifications.py:36 clicking menu
+INFO     testutils:test_notifications.py:45 Clicking on 'Settings' entry
+INFO     testutils:test_notifications.py:50 Clicking on 'Notification settings' entry
+INFO     testutils:test_notifications.py:57 Checking url
+INFO     testutils:test_notifications.py:60  => https://0.0.0.0/settings/notification
+INFO     testutils:test_notifications.py:124 Store settings
+INFO     testutils:test_notifications.py:133 Checking state for 'ooFollowerTrades'
+INFO     testutils:test_notifications.py:135  => False
+INFO     testutils:test_notifications.py:133 Checking state for 'ooComments'
+INFO     testutils:test_notifications.py:135  => False
+INFO     testutils:test_notifications.py:133 Checking state for 'ooYourTrades'
+INFO     testutils:test_notifications.py:135  => False
+INFO     testutils:test_notifications.py:161 
+INFO     testutils:test_notifications.py:162 Submitting settings
+INFO     testutils:test_notifications.py:165  => submitted
+INFO     testutils:test_notifications.py:36 clicking menu
+INFO     testutils:test_notifications.py:45 Clicking on 'Settings' entry
+INFO     testutils:test_notifications.py:50 Clicking on 'Notification settings' entry
+INFO     testutils:test_notifications.py:57 Checking url
+INFO     testutils:test_notifications.py:60  => https://0.0.0.0/settings/notification
+INFO     testutils:test_notifications.py:126 Iteration 1
+INFO     testutils:test_notifications.py:127  => check settings are as expected
+INFO     testutils:test_notifications.py:128  => change settings (and validate)
+INFO     testutils:test_notifications.py:129  => register settings, then repeat
+INFO     testutils:test_notifications.py:133 Checking state for 'ooFollowerTrades'
+INFO     testutils:test_notifications.py:135  => False
+INFO     testutils:test_notifications.py:144  => clicking
+INFO     testutils:test_notifications.py:152  => new state: True
+INFO     testutils:test_notifications.py:133 Checking state for 'ooComments'
+INFO     testutils:test_notifications.py:135  => False
+INFO     testutils:test_notifications.py:144  => clicking
+INFO     testutils:test_notifications.py:152  => new state: True
+INFO     testutils:test_notifications.py:133 Checking state for 'ooYourTrades'
+INFO     testutils:test_notifications.py:135  => False
+INFO     testutils:test_notifications.py:144  => clicking
+INFO     testutils:test_notifications.py:152  => new state: True
+INFO     testutils:test_notifications.py:161 
+INFO     testutils:test_notifications.py:162 Submitting settings
+INFO     testutils:test_notifications.py:165  => submitted
+INFO     testutils:test_notifications.py:36 clicking menu
+INFO     testutils:test_notifications.py:45 Clicking on 'Settings' entry
+INFO     testutils:test_notifications.py:50 Clicking on 'Notification settings' entry
+INFO     testutils:test_notifications.py:57 Checking url
+INFO     testutils:test_notifications.py:60  => https://0.0.0.0/settings/notification
+INFO     testutils:test_notifications.py:126 Iteration 2
+INFO     testutils:test_notifications.py:127  => check settings are as expected
+INFO     testutils:test_notifications.py:128  => change settings (and validate)
+INFO     testutils:test_notifications.py:129  => register settings, then repeat
+INFO     testutils:test_notifications.py:133 Checking state for 'ooFollowerTrades'
+INFO     testutils:test_notifications.py:135  => True
+INFO     testutils:test_notifications.py:144  => clicking
+INFO     testutils:test_notifications.py:152  => new state: False
+INFO     testutils:test_notifications.py:133 Checking state for 'ooComments'
+INFO     testutils:test_notifications.py:135  => True
+INFO     testutils:test_notifications.py:144  => clicking
+INFO     testutils:test_notifications.py:152  => new state: False
+INFO     testutils:test_notifications.py:133 Checking state for 'ooYourTrades'
+INFO     testutils:test_notifications.py:135  => True
+INFO     testutils:test_notifications.py:144  => clicking
+INFO     testutils:test_notifications.py:152  => new state: False
+INFO     testutils:test_notifications.py:161 
+INFO     testutils:test_notifications.py:162 Submitting settings
+INFO     testutils:test_notifications.py:165  => submitted
+INFO     testutils:test_notifications.py:36 clicking menu
+INFO     testutils:test_notifications.py:45 Clicking on 'Settings' entry
+INFO     testutils:test_notifications.py:50 Clicking on 'Notification settings' entry
+INFO     testutils:test_notifications.py:57 Checking url
+INFO     testutils:test_notifications.py:60  => https://0.0.0.0/settings/notification
+INFO     testutils:test_notifications.py:169 Success
+________________ UserRegistrationTests.test_canRegisterNewUser ________________
+---------------------------- Captured stdout call -----------------------------
+E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+------------------------------ Captured log call ------------------------------
+INFO     testutils:testutils.py:59 start testing app E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\..\apps\com.clientName.appName_dev-Signed.apk
+INFO     testutils:testutils.py:104 all contexts: ['NATIVE_APP', 'WEBVIEW_com.clientName.appName_dev', 'WEBVIEW_chrome', 'WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs']
+INFO     testutils:testutils.py:105 context now: NATIVE_APP
+INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev
+INFO     testutils:testutils.py:113 logoutIfLoggedIn
+INFO     testutils:test_userRegistrationTests.py:25 Logging in 
+INFO     testutils:testutils.py:127 matching login images: 1
+INFO     testutils:testutils.py:128 element count: True
+INFO     testutils:testutils.py:129 trying to click
+INFO     testutils:testutils.py:132 Looking for #active
+INFO     testutils:testutils.py:134 clicking on mock box
+INFO     testutils:testutils.py:137 clicking on image again
+INFO     testutils:testutils.py:148 Navigating to create profile
+INFO     testutils:testutils.py:150 element count: True
+INFO     testutils:testutils.py:152 Clicked
+INFO     testutils:testutils.py:161 Entering email address
+INFO     testutils:testutils.py:163 element count: True
+INFO     testutils:testutils.py:168 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:171 Finding next button
+INFO     testutils:testutils.py:173 element count: True
+INFO     testutils:testutils.py:184 Entering verification code
+INFO     testutils:testutils.py:191 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:194 Clicking on button
+INFO     testutils:testutils.py:208 Entering user details
+INFO     testutils:testutils.py:209 Handling title
+INFO     testutils:testutils.py:213 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:219 Processing firstName
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing lastName
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing dateOfBirth
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:219 Processing phoneNumber
+INFO     testutils:testutils.py:223 Updated
+INFO     testutils:testutils.py:225 Handling language
+INFO     testutils:testutils.py:231 Swiping
+INFO     testutils:testutils.py:233 Swiped
+INFO     testutils:testutils.py:240 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:242 Handling country
+INFO     testutils:testutils.py:246 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:248 Moving to next
+INFO     testutils:testutils.py:260 Entering verification code
+INFO     testutils:testutils.py:267 Closing on-screen keyboard by clicking on body element
+INFO     testutils:testutils.py:270 Clicking on button
+INFO     testutils:testutils.py:281 Looking for home div
+INFO     testutils:test_userRegistrationTests.py:27 Logged in
+- generated xml file: E:\companyName\Frontend-2\IX.MobileApp\ui-testing\appium\scripts\junitreport.xml -
+=========================== short test summary info ===========================
+PASSED tests/test_misc.py::Misc::test_canViewSupport
+PASSED tests/test_notifications.py::Notifications::test_canToggleNotifications
+PASSED tests/test_userRegistrationTests.py::UserRegistrationTests::test_canRegisterNewUser
+FAILED tests/test_misc.py::Misc::test_canViewInterestedInBecomingAProvider - ...
+FAILED tests/test_notifications.py::Notifications::test_fail1_with_logger - E...
+FAILED tests/test_notifications.py::Notifications::test_fail1_with_print - Ex...
+FAILED tests/test_notifications.py::Notifications::test_fail1_with_printandlogger
+=================== 4 failed, 3 passed in 223.61s (0:03:43) ===================

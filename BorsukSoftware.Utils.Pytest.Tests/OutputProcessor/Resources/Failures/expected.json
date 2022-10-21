@@ -1,0 +1,80 @@
+[
+  {
+    "Passed": false,
+    "TestName": "Notifications.test_fail1_with_logger",
+    "Body": [
+      "",
+      "self = \u003Ctest_notifications.Notifications testMethod=test_fail1_with_logger\u003E",
+      "",
+      "    def test_fail1_with_logger(self):",
+      "        self.logger.info( \u0022Abble\u0022 )",
+      "\u003E       raise Exception(\u0022oops\u0022)",
+      "E       Exception: oops",
+      "",
+      "tests\\test_notifications.py:42: Exception"
+    ],
+    "StdOutLines": [
+      "E:\\companyName\\Frontend-2\\IX.MobileApp\\ui-testing\\appium\\scripts\\..\\apps\\com.clientName.appName_dev-Signed.apk"
+    ],
+    "LogMessages": [
+      "INFO     testutils:testutils.py:59 start testing app E:\\companyName\\Frontend-2\\IX.MobileApp\\ui-testing\\appium\\scripts\\..\\apps\\com.clientName.appName_dev-Signed.apk",
+      "INFO     testutils:testutils.py:104 all contexts: [\u0027NATIVE_APP\u0027, \u0027WEBVIEW_chrome\u0027, \u0027WEBVIEW_com.clientName.appName_dev\u0027, \u0027WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs\u0027]",
+      "INFO     testutils:testutils.py:105 context now: NATIVE_APP",
+      "INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev",
+      "INFO     testutils:test_notifications.py:41 Abble"
+    ]
+  },
+  {
+    "Passed": false,
+    "TestName": "Notifications.test_fail1_with_print",
+    "Body": [
+      "",
+      "self = \u003Ctest_notifications.Notifications testMethod=test_fail1_with_print\u003E",
+      "",
+      "    def test_fail1_with_print(self):",
+      "        print(\u0022Hello\u0022)",
+      "\u003E       raise Exception(\u0022oops\u0022)",
+      "E       Exception: oops",
+      "",
+      "tests\\test_notifications.py:33: Exception"
+    ],
+    "StdOutLines": [
+      "E:\\companyName\\Frontend-2\\IX.MobileApp\\ui-testing\\appium\\scripts\\..\\apps\\com.clientName.appName_dev-Signed.apk",
+      "Hello"
+    ],
+    "LogMessages": [
+      "INFO     testutils:testutils.py:59 start testing app E:\\companyName\\Frontend-2\\IX.MobileApp\\ui-testing\\appium\\scripts\\..\\apps\\com.clientName.appName_dev-Signed.apk",
+      "INFO     testutils:testutils.py:104 all contexts: [\u0027NATIVE_APP\u0027, \u0027WEBVIEW_com.clientName.appName_dev\u0027, \u0027WEBVIEW_chrome\u0027, \u0027WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs\u0027]",
+      "INFO     testutils:testutils.py:105 context now: NATIVE_APP",
+      "INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev"
+    ]
+  },
+  {
+    "Passed": false,
+    "TestName": "Notifications.test_fail1_with_printandlogger",
+    "Body": [
+      "",
+      "self = \u003Ctest_notifications.Notifications testMethod=test_fail1_with_printandlogger\u003E",
+      "",
+      "    def test_fail1_with_printandlogger(self):",
+      "        print(\u0022Hello\u0022)",
+      "        self.logger.info( \u0022Ibble\u0022 )",
+      "\u003E       raise Exception(\u0022oops\u0022)",
+      "E       Exception: oops",
+      "",
+      "tests\\test_notifications.py:38: Exception"
+    ],
+    "StdOutLines": [
+      "E:\\companyName\\Frontend-2\\IX.MobileApp\\ui-testing\\appium\\scripts\\..\\apps\\com.clientName.appName_dev-Signed.apk",
+      "Hello"
+    ],
+    "LogMessages": [
+      "INFO     testutils:testutils.py:59 start testing app E:\\companyName\\Frontend-2\\IX.MobileApp\\ui-testing\\appium\\scripts\\..\\apps\\com.clientName.appName_dev-Signed.apk",
+      "INFO     testutils:testutils.py:104 all contexts: [\u0027NATIVE_APP\u0027, \u0027WEBVIEW_com.clientName.appName_dev\u0027, \u0027WEBVIEW_chrome\u0027, \u0027WEBVIEW_com.yodesoft.android.game.yopuzzleFrogs\u0027]",
+      "INFO     testutils:testutils.py:105 context now: NATIVE_APP",
+      "INFO     testutils:testutils.py:109 context now: WEBVIEW_com.clientName.appName_dev",
+      "INFO     testutils:test_notifications.py:37 Ibble",
+      "- generated xml file: E:\\companyName\\Frontend-2\\IX.MobileApp\\ui-testing\\appium\\scripts\\junitreport.xml -"
+    ]
+  }
+]
