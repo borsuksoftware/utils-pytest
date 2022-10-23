@@ -22,7 +22,7 @@ namespace BorsukSoftware.Utils.Pytest.OutputProcessor
 
             var introLinesPassesRegex = new System.Text.RegularExpressions.Regex("^(=)+ PASSES (=)+$");
             var introLinesFailuresRegex = new System.Text.RegularExpressions.Regex("^(=)+ FAILURES (=)+$");
-            var testStartRegex = new System.Text.RegularExpressions.Regex("^(_)+ (?<testName>.*) (_)+$");
+            var testStartRegex = new System.Text.RegularExpressions.Regex("^(_)+ (?<testName>([0-9]|[a-z]|_|:|-|\\.)*) (_)+$", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
 
             var startCapturedStdoutCall = new System.Text.RegularExpressions.Regex("^-+ Captured stdout call -+$", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
             var startCapturedLogCall = new System.Text.RegularExpressions.Regex("^-+ Captured log call -+$", System.Text.RegularExpressions.RegexOptions.IgnoreCase);

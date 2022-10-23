@@ -63,17 +63,8 @@
       "        logger.info( \u0022Logging in \u0022)",
       "\u003E       RegistrationHelper.registerNewUser(self, ssPrefix)",
       "",
-      "tests\\test_misc.py:40: "
-    ],
-    "StdOutLines": [
-    ],
-    "LogMessages": [
-    ]
-  },
-  {
-    "Passed": false,
-    "TestName": "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _",
-    "Body": [
+      "tests\\test_misc.py:40: ",
+      "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _",
       "",
       "test = \u003Ctest_misc.Misc testMethod=test_canViewInterestedInBecomingAProvider\u003E",
       "ssPrefix = \u0027Misc_test_canViewInterestedInBecomingAProvider\u0027",
